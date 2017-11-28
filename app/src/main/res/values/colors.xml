@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="statusbar_color">#f99d2e</color>
+    <color name="statusbar_color_change">#8d3b14</color>
+    <color name="status_forgot">#343342</color>
+
+    <color name="color_text_tablayout">#8d3b14</color>
+    <color name="color_underline_tablayout">#69c730</color>
+    <color name="color_backgound_tablayout">#ffffff</color>
+    <color name="color_toobar">#c81f34</color>
+    <color name="color_statusbar">#8d3b14</color>
+    <color name="color_backgroud_viewpager">#ededf0</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_red">#fb2727</color>
+    <color name="color_black">#312222</color>
+    <color name="color_xám_tím">#9a7c7c</color>
+    <color name="color_buttonBuy">#69c730</color>
+    <color name="color_statusbar_plash">#f99d2e</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="color_Toolbar">#c81f34</color>
+    <color name="color_navigation">#353535</color>
+</resources>

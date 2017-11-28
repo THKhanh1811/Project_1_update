@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="title_activity_foodmenu">foodmenu</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_food">Food</string>
+
+    <string name="facebook_app_id">147012702598079</string>
+    <string name="fb_login_protocol_scheme">fb147012702598079</string>
+
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_menu_app">Menu_app</string>
+    <string name="activity_menu">Menu</string>
+
+    <string name="text_open">open</string>
+    <string name="text_close">close</string>
+    <string name="food">Food</string>
+    <string name="drink">Drink</string>
+    <string name="sweet">Sweet</string>
+    <string name="snack">Snack</string>
+    <string name="buy">Buy</string>
+</resources>

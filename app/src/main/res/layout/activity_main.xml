@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.khanh.project.FoodActivity">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/llfood"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/color_toobar"
+
+                >
+
+                <TextView
+                    android:id="@+id/txttitle_actionbar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/food"
+                    android:textColor="@color/color_white"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+
+            </android.support.v7.widget.Toolbar>
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tablayout_activity_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_backgound_tablayout"
+                app:tabIndicatorColor="@color/color_underline_tablayout"
+                app:tabIndicatorHeight="4dp"
+                app:tabMode="fixed"
+                app:tabSelectedTextColor="@color/color_text_tablayout"
+                app:tabTextAppearance="@style/MyTabLayoutTextAppearance"
+                app:tabTextColor="@color/color_text_tablayout">
+
+            </android.support.design.widget.TabLayout>
+
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager_activity_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/color_backgroud_viewpager">
+
+
+
+            </android.support.v4.view.ViewPager>
+
+            <RelativeLayout
+                android:id="@+id/llbuy"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom"
+                android:background="@color/color_buttonBuy"
+                android:layout_marginTop="-50dp"
+                >
+
+                <TextView
+                    android:id="@+id/txtbuy_activity_main"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingLeft="20dp"
+                    android:text="@string/buy"
+                    android:textColor="@color/color_white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtmoney_activi_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center|end"
+                    android:paddingEnd="30dp"
+                    android:paddingRight="10dp"
+                    android:text="$0.00"
+                    android:textColor="@color/color_white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/NavigationView_activity_main"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            >
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:background="@color/color_navigation"
+                android:layout_gravity="start"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="300dp"
+                    android:gravity="center"
+                    android:layout_height="200dp">
+
+                    <ImageView
+                        android:layout_width="101.3333333333333dp"
+                        android:layout_height="101.3333333333333dp"
+                        android:layout_marginTop="50dp"
+                        android:src="@drawable/logo_user" />
+                    <TextView
+                        android:textSize="18sp"
+                        android:textColor="@color/colorWhite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Fast Food" />
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/navigation_list"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:divider="@android:color/transparent"
+                    android:background="@color/color_navigation"
+                    />
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@drawable/iconfb"/>
+                    <ImageView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@drawable/icontw"/>
+                    <ImageView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@drawable/icongg"/>
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+        </android.support.design.widget.NavigationView>
+
+
+    </android.support.v4.widget.DrawerLayout>
+
+
+</LinearLayout>
